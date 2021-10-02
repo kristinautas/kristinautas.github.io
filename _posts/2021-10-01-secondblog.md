@@ -13,7 +13,7 @@ One of them is input/output parameters. There's a handy tool for checking them  
 <b>kB_wrtn</b> - The total number of kilobytes written.<br>
 Storage input and output statistics are very important in identifying performance issues with storage devices as it shows how fast the reads and writes happen.<br><br>
 Finally, it is recommended to check memory usage. Running `vmstat` command will show you a very detailed picture of how your memory is being utilized. <br> For the purpose of this article, I'm going to explain some parameters that you should definitely pay attention to when troubleshooting your server speed: <br>
-<b>swpd</b> - Amount of virtual memory used
+<b>swpd</b> - Amount of virtual memory used<br>
 <b>free</b> - Amount of free memory<br>
 <b>buff </b> - Amount of memory used as buffers<br>
 <b>cache </b> - Amount of memory used as cache<br><br>
