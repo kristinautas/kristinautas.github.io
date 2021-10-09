@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Blog 2 - Slow server troubleshooting. Part 2"
+title:  "What is a deadlock in Linux?"
 date:   2021-10-01 14:21:28 -0700
 categories: ubuntu blog
 ---
