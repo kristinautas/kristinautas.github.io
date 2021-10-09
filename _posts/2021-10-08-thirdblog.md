@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is a deadlock in Linux?"
-date:   2021-10-01 14:21:28 -0700
+date:   2021-10-08 14:21:28 -0700
 categories: ubuntu blog
 ---
 Let's talk about deadlock. If you want to become a linux administrator or just use linux-based environment at work, deadlock is something you should be aware of. <br>
