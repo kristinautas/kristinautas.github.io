@@ -12,4 +12,4 @@ Hopefully, you remember the process ID of Init. That's right, it is 1. So, what 
 <br>
 What happens when a process needs to terminate? Let's say, our PID 2 wants to call it quits. In that case, it will make a system call to the kernel to let it know its <br>
 termination status. However, that's not enough to complete the  termination process. Every parent would want to know why its child died, right? So it would make its own system call to the kernel to find out what the termination status of its child is. After a parent acknowledges the termination status, its child is officially dead.<br><br>
-In the second part of our discussion about processes, Linix will get  even darker.. we are going to talk about <b>zombies</b>, </b>orphans</b> and <b>adoption</b> (: Stay tuned.
+In the second part of our discussion about processes, Linix will get  even darker.. we are going to talk about <b>zombies</b>, <b>orphans</b> and <b>adoption</b> (: Stay tuned.
