@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog 4 - Processes in Linux. Part 1"
+title: "Blog 5 - Processes in Linux. Part 2"
 date: 2021-10-15 14:21:28 -0700
 categories: ubuntu blog
 ---
@@ -14,7 +14,6 @@ Too many `zombie` processes can be a bad thing. It can prevent other processes f
 Let's say, we want to force a process to finish. We can do that via commandline <br>
 by running `kill` + `PID`. By default, it sends `TERM` signal to the process.<br>
 You can also send `SIGKILL` signal to the process by using `-9` option with the `kill` command. These two signals are very similar, but they do have their differences. `SIGTERM` means  to kill the process, but allow it to do some cleanup first. `SIGKILL` means to kill the process, kill it with fire, no  cleanup.
-~
 
 Some of the other common signals are `SIGINT`, `SIGHUP` and `SIGSTOP`. `SIGHUP` is  sent to a process when the controlling terminal is closed. If you closed<br> a terminal window that had a process running in it, you would get a SIGHUP signal. <br>
 `SIGINT` is an interrupt signal, so you can use Ctrl-C and the system will<br> try to gracefully kill the process<br>
