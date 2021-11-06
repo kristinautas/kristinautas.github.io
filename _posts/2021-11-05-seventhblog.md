@@ -13,7 +13,7 @@ They have some differences like <b>MBR</b> can have primary, extended and logica
 possible to make many of them. There're more differences, but they are outside<br> of the scope of this blog post.<br>
 If you want to take a look at your partitioning table, you can run `sudo parted -l`.<br> This command will show you primary, logical and etendedpartitions on your computer. <br>
 Below is the output of this command in case of <b>MBR</b> partitioning table. <br>
-`pete@icebox:~$ sudo parted -l
+<i>pete@icebox:~$ sudo parted -l
 
 Model: Seagate (scsi)<br>
 
@@ -32,7 +32,7 @@ Number  Start   End     Size    Type      File system     Flags<br>
 
  5      6861MB  7380MB  519MB   logical   linux-swap(v1)<br>
 
- 6      7381MB  21.5GB  14.1GB  logical   xfs`<br>
+ 6      7381MB  21.5GB  14.1GB  logical   xfs</i><br>
 
 There are a lot of tools that you can use to partition your disk. You will find<br> some of them listed below:<br>
 •	<b>fdisk</b> - basic command-line partitioning tool that doesn't support GPT<br>
