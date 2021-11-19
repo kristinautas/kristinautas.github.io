@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Blog  - Back up solutions in Linux"
+title: "Blog 9  - Back up solutions in Linux"
 date: 2021-11-19 14:21:28 -0700
 categories: ubuntu blog
 ---
-It is extremely important to back up your data. Unfortunately, many people start considering<br> backup solutions only after the disaster has already happened. I suggest we take a proactive <br>approach to this matter and learn how to perform backups before data loss occurs. There’re <br>many backup types and methods. Today, we are going to talk about disk cloning solutions, <br>such as`dd` command, the `ddrescue`command, and the `Relax-and-Recover (ReaR) `software` tool.<br><br>
-<br> <b>The `dd` command</b><br><br>
+It is extremely important to back up your data. Unfortunately, many people start considering<br> backup solutions only after the disaster has already happened. I suggest we take a proactive <br>approach to this matter and learn how to perform backups before data loss occurs. There’re <br>many backup types and methods. Today, we are going to talk about disk cloning solutions, <br>such as`dd` command, the `ddrescue`command, and the `Relax-and-Recover (ReaR) `software tool.<br><br>
+ <b>The `dd` command</b><br><br>
 The `dd` command is the most popular linux back up command. It is used to copy an entire disk, block by block, from a source to a destination. It is important to check that there is enough space on the destination disk to fit data from the source. By running `fdisk -l` command we can check both source and destination disk space. Using the `dd` command, we will need to make sure that the source file will fit into the destination. <br><br>
 Once we know we have enough disk space, we can proceed with the cloning. Let’s say we want to clone `/dev/sda` to `/dev/sdb`. In order to do that, run the following command: <br>
 `sudo dd if=if=/dev/sda of=/dev/sdb conv=noerror, sync status=progress` <br>
