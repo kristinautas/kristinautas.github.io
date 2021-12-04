@@ -10,7 +10,7 @@ ReaR is a powerful disaster recovery and system migration tool written in Bash. 
 Once the packages have been installed, check out the main configuration file <br>called /etc/rear/local.conf that contains all the configuration options. By default, ReaR <br>makes ISO files, but it also supports Samba (CIFS), USB, and NFS as destinations. <br>
 <b>Backing up to a local NFS server using ReaR</b><br>
 Let’s take a look at the example of backing up to an NFS server. Let’s say, we already have an <br>NFS server set up on one of our Ubuntu machines on our network.<br>
-First, we must configure the NFS server. The configuration file for NFS /etc/exports stores <b>information about the share's location. Before we add any new information about the ReaR <b>backup share's location, we will create a new directory for our RearR backups as follows:<br>
+First, we must configure the NFS server. The configuration file for NFS /etc/exports stores <br>information about the share's location. Before we add any new information about the ReaR <b>backup share's location, we will create a new directory for our RearR backups as follows:<br>
 `sudo mkdir /home/export/rear `
 Now, we need to change ownership because we will not have permission to write the backup to <br>this location of the owner is root:<br>
 `sudo chown -R nobody:nogroup /home/export/rear/`<br>
