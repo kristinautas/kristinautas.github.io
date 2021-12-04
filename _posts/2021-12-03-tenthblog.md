@@ -15,4 +15,4 @@ First, we must configure the NFS server. The configuration file for NFS /etc/exp
 Now, we need to change ownership because we will not have permission to write the backup to <br>this location of the owner is root:<br>
 `sudo chown -R nobody:nogroup /home/export/rear/`<br>
 Now, open the /etc/exports file and add a new line for the backup directory as follows:<br>
-![](Picture1.jpg)
+<img scr="Picture1.jpg"/>
