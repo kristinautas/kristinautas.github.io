@@ -1,8 +1,9 @@
 ---
 layout: post
-title: "Blog 9  - Back up solutions in Linux"
+title: "Blog 10  - Back up solutions in Linux. Part 2"
 date: 2021-11-19 14:21:28 -0700
 categories: ubuntu blog
+image : ./Picture1.jpg
 ---
 <b>Using Relax-and-Recover (ReaR)</b>
 ReaR is a powerful disaster recovery and system migration tool written in Bash. It can also be <br>installed on Ubuntu using. The following command: <br>
@@ -15,4 +16,4 @@ First, we must configure the NFS server. The configuration file for NFS /etc/exp
 Now, we need to change ownership because we will not have permission to write the backup to <br>this location of the owner is root:<br>
 `sudo chown -R nobody:nogroup /home/export/rear/`<br>
 Now, open the /etc/exports file and add a new line for the backup directory as follows:<br>
-<img src = "./Picture1.jpg">
+{{page.image}}
