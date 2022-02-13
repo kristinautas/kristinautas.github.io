@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Blog 1.0  - Amazon Virtual Private Cloud (VPC) Overview"
-date: 2022-12-19 14:21:28 -0700
+date: 2022-02-12 14:21:28 -0700
 categories: AWS blog
 ---
 There’s no doubt in the fact that more and more companies are moving their resources to the cloud. It’s <br> important for a future IT professional to be familiar with cloud concepts, and that’s exactly what the <br> next few blog posts are going to help you with. <br><br> Today, we will learn about `VPC` and <br> some of its fundamental components. Many of the concepts of a physical network apply to a cloud-<br> based network. For instance, `Amazon Virtual Private Cloud (Amazon VPC) ` is a service that lets <br> you create a logically isolated section of the AWS Cloud that is similar to your physical database. <br> After you create a VPC, you can divide it into subnets. <br><br>
