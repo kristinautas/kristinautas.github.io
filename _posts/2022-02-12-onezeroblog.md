@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog 1.0  - "Amazon Virtual Private Cloud (VPC) Overview"
+title: "Blog 1.0  - Amazon Virtual Private Cloud (VPC) Overview"
 date: 2022-12-19 14:21:28 -0700
 categories: AWS blog
 ---
