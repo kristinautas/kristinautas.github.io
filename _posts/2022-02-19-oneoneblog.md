@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog 1.1  - "Security Groups and Acess Control Lists in AWS"
+title: "Blog 1.1  - Security Groups vs ACLs in AWS"
 date: 2022-02-19 14:21:28 -0700
 categories: AWS blog
 ---
