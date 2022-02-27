@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Blog 1.2  Amazon Route 53"
+title: "Blog 1.2 - Amazon Route 53"
 date: 2022-02-26 14:21:28 -0700
 categories: AWS blog
 ---
