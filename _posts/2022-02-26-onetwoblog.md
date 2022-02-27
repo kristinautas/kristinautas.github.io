@@ -17,14 +17,14 @@ categories: AWS blog
  and offers options for low-latency and fault-tolerant <br>
 architectures. The following are the types of routing policies <br>
  that define how `Amazon Route 53` responds to queries: <br>
-`• Simple routing (round robin)` – Use for a single resource <br> <br>
- that performs a given function for your domain <br>
-`• Weighted round robin routing` – Use to route traffic to <br> <br>
+`• Simple routing (round robin)` – Use for a single resource <br>
+ that performs a given function for your domain <br> <br>
+`• Weighted round robin routing` – Use to route traffic to  <br>
  multiple resources in proportions that you specify. Enables <br>
  you to assign weights to resource record sets to specify <br>
  the frequency with which different responses are served. <br>
- You might want to use this capability to do testing.  <br>
-`• Latency routing (LBR)` – Use when you have resources <br> <br>
+ You might want to use this capability to do testing.  <br> <br>
+`• Latency routing (LBR)` – Use when you have resources <br>
  in multiple AWS Regions and you want to route traffic to <br>
  the Region that provides the best latency.  <br> <br>
 `• Geolocation routing` – Use when you want to route traffic <br>
