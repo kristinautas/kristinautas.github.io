@@ -19,4 +19,4 @@ Each `user` is defined in one and only one AWS account. An `IAM group` is a coll
 References:
 
 <br>
-AWS Academy Cloud Foundations Module 5: Networking and Content Delivery
+AWS Academy Cloud Foundations Module 4: AWS Identity and Access Management (IAM)
