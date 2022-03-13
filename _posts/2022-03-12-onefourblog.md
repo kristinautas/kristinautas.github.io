@@ -14,4 +14,9 @@ different permissions to different people for different resources. For example, 
 allow some users `full access` to Amazon EC2, Amazon S3, etc., while for other users, <br>
 you can allow `read-only` access to the same resources. `IAM` is a feature of `AWS account, `  <br> and it is offered at no additional charge. It is important to understand the role and function <br> of each of the four `IAM components.` An `IAM user` is a person or application that is <br> defined in an `AWS account, ` and that must make API calls to AWS products. Each `user` <br> must have a unique name within the AWS account, and a set of security credentials. 
 Each `user` is defined in one and only one AWS account. An `IAM group` is a collection of IAM <br> users. You can use `IAM groups` to simplify specifying and managing permissions for <br> multiple users. An `IAM policy` is a document that defines permissions to determine what users <br> can do in the AWS account. A policy grants access to specific resources and specifies <br> what the user can do with those resources. Policies can also explicitly deny access. An <br> `IAM role` is a tool for granting temporary access to specific AWS resources in an AWS <br> account.
+<br> <br>
 
+References:
+
+<br>
+AWS Academy Cloud Foundations Module 5: Networking and Content Delivery
