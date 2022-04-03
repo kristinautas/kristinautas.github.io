@@ -7,8 +7,9 @@ categories: AWS blog
 
 `Elastic Load Balancing` is an AWS service that distributes incoming <br>
 application or network traffic across multiple targets (EC2 instances, <br>
- containers, IP addresses, and Lambda functions). `Elastic Load <br>
- Balancing` scales your load balancer as traffic to your application <br>
+ containers, IP addresses, and Lambda functions). `Elastic Load
+ Balancing` <br>
+ scales your load balancer as traffic to your application <br>
  changes over time. <br> <br>
 There are 3 types of Elastic Load Balancing: <br><br>
 •`An Application Load Balancer` operates at the application level. <br>
