@@ -35,8 +35,8 @@ scaling policies, then `Amazon EC2 Auto Scaling ` can launch or terminate <br>
 To launch `EC2 instances `, an `Auto Scaling group ` uses a `launch` <br>
 `configuration`, which is an instance configuration template. When you <br>
 create a `launch configuration `, you specify information for the instances <br>
-such as the ID of the `Amazon Machine Image `, the `instance type `, `AWS <br>
-Identity and Access Management role `, `additional storage `, one or more <br>
+such as the ID of the `Amazon Machine Image `, the `instance type `, `AWS` <br>
+`Identity and Access Management role`, `additional storage `, one or more <br>
  `security groups `, and any `Amazon Elastic Block Store volumes `. You <br>
 define the minimum and maximum number of instances and desired <br>
 capacity of your Auto Scaling group. Then, you launch it into a subnet <br>
